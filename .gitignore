@@ -1,0 +1,29 @@
+# use glob syntax.
+syntax: glob
+*.class
+*~
+*.bak
+*.orig
+*.cmd
+.idea
+*.pyc
+.DS_Store
+*.iml
+*.js.map
+tests/REST/tests.cfg
+package-lock.json
+**/buildDir/app.*.js
+**/buildDir/vendor.*.js
+*.zip
+
+# switch to regexp syntax.
+
+.**/dist/**
+**/target/
+**/node_modules/
+**/dist/
+**/typings
+**/.settings
+**/node/
+**/bower_components/
+**/lib/
